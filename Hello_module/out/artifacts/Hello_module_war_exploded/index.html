@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="testServlet" method="post">
+    <button>提交</button>
+</form>
+<form action="testServlet" method="get">
+    <button>提交</button>
+</form>
+<script>
+  /*  //Fetch
+    fetch('http://localhost:8080/testServlet',{method:'get'}).then(function(response) {
+
+    }).catch(function(err) {
+        // 出错了;等价于 then 的第二个参数,但这样更直观 :(
+    });
+
+    // 链式处理,将异步变为类似单线程的写法: 高级用法.
+    fetch('http://localhost:8080/testServlet').then(function(response) {
+        return //... 执行成功, 第1步...
+    }).then(function(returnedValue) {
+        // ... 执行成功, 第2步...
+    }).catch(function(err) {
+        // 中途任何地方出错...在此处理 :(
+    });*/
+</script>
+</body>
+</html>
