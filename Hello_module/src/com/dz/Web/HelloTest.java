@@ -11,7 +11,7 @@ public class HelloTest {
         String str3=new String("马冬梅");
         System.out.println(str==str2+"指向地址一样");
         System.out.println(str==str3+"，指向地址不一样");
-       
+
         TestDao.getDao();
         TestEntity.getEntity();
         TestService.getService();
